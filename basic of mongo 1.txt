@@ -1,0 +1,31 @@
+
+1. "monogdurl" --dbpath="data"
+2.C drive(monogodb/binfolder)->cmd->mongo 
+db
+use dbname -> for create database.
+
+db.DocMine-> collection name.
+
+db.DocMine.insert({"docname":"Mydoc1","special":"Practice Collection1"});
+
+db.MyDB.find().pretty() -> showing value
+
+var tmtstmp = new ObjectId();
+
+tmstmp.getTimestamp();
+
+db.help(); ---> Showing Database methods.0
+
+
+
+<-----------Express Node.Js-------->
+TO INSTALL 
+1. npm install express --save
+2. npm init
+4. Create index.js and write the commands
+5. Run the file by "node filename.js"
+6. Output will be whatever written in console.log() 
+3. Go to browser type "localhost:portnumberfilename"
+
+
+
